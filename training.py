@@ -23,7 +23,6 @@ def load_dataset(ngrams_path):
 
     return list_ngrams
 
-
 def training(ngrams_path, resume=False, checkpoint_path=""):
     list_ngrams = load_dataset(ngrams_path)
     trainer = Trainer(alphabets, list_ngram=list_ngrams)
@@ -38,5 +37,3 @@ def training(ngrams_path, resume=False, checkpoint_path=""):
 
 if __name__ == '__main__':
     training(ngrams_path="./data/list_ngrams.npy")
-
-
