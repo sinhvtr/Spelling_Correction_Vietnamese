@@ -3,7 +3,7 @@
 </h1>
 
 ## Overview 
-A project to correct spelling errors in Vietnamese texts using Seq2Seq and Seq2Seq-Attention models at character-level
+A project to correct spelling errors in Vietnamese texts using Seq2Seq-Attention models at character-level
 
 More information can read from [training.ipynb](notebooks/Spelling_Correction_Vietnamese_Training.ipynb) or [testing.ipynb](notebooks/Spelling_Correct_Vietnamese_Testing.ipynb)
 
@@ -30,10 +30,3 @@ Edit parameters in params.py file and training:
 ```bash
 python training.py
 ```
-
-# Performances
-| Spell<br>Checker    | CER (%) | Full Sequence Acc (%) |
-|----------|----------------------|--------------------------------------|
-| ```Seq2Seq``` | 1.34 | 82.3 |
-|``` Seq2Seq-Attention``` | 1.12 | 85.7|
-
